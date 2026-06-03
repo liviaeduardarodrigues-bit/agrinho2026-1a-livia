@@ -1,5 +1,31 @@
 .cabecalho{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+}
+.cabecalho-titulo{
+    color: orange;
+    font-weight: 800;
+}
+.cabecalho-menu{
+    display: block;
+    unicode-bidi: isolate;
+}
+.cabecalho-menu-item{
+    text-decoration: none;
+    color:green;
+    margin: 0 15px;
+    front-weight: 600;
+    transition: color 0.2s;
+}
+.cabecalho-menu-botao{
+    background-color: var(--dark-neutral);
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 0.9rem;
+    transition: transform 0.2s;
 }
