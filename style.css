@@ -15,7 +15,7 @@
     text-decoration: none;
     color:green;
     margin: 0 15px;
-    front-weight: 600;
+    font-weight: 600;
     transition: color 0.2s;
 }
 .cabecalho-menu-botao{
@@ -28,4 +28,12 @@
     font-weight: 600;
     font-size: 0.9rem;
     transition: transform 0.2s;
+}
+.problema{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 5%;
+    min-height: 80vh;
+    gap: 30px;
 }
